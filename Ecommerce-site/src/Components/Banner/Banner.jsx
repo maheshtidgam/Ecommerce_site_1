@@ -62,7 +62,7 @@ const Banner = () => {
                             />
                             
                             {/* Enhanced sale badge with glow effect in dark mode - hover animation */}
-                            <div className="absolute -bottom-6 -right-6 md:bottom-6 md:right-6 bg-gradient-to-r from-red-500 to-orange-500 dark:from-red-600 dark:to-orange-600 text-white py-2 px-4 md:py-3 md:px-6 rounded-full shadow-lg dark:shadow-[0_0_15px_rgba(239,68,68,0.5)] transform rotate-3 font-bold group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-xl dark:group-hover:shadow-[0_0_20px_rgba(239,68,68,0.7)] transition-all duration-300">
+                            <div className="absolute bottom-2 right-1 md:bottom-6 md:right-6 bg-gradient-to-r from-red-500 to-orange-500 dark:from-red-600 dark:to-orange-600 text-white py-2 px-4 md:py-3 md:px-6 rounded-full shadow-lg dark:shadow-[0_0_15px_rgba(239,68,68,0.5)] transform rotate-3 font-bold group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-xl dark:group-hover:shadow-[0_0_20px_rgba(239,68,68,0.7)] transition-all duration-300">
                                 <span className="dark:animate-pulse">50% OFF</span>
                             </div>
                         </div>

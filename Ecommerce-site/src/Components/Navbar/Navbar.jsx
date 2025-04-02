@@ -159,7 +159,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
 
             {/* Desktop Menu Navigation */}
-            <div className='container mx-auto flex justify-center items-center py-4 px-4' data-aos="fade-down" data-aos-delay="300">
+            <div className='container mx-auto flex justify-center items-center py-1 px-4' data-aos="fade-down" data-aos-delay="300">
                 <ul className='sm:flex hidden items-center gap-4 lg:gap-6'>
                     {Menu.map((item, index) => (
                         <li
